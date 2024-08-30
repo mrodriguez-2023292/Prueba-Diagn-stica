@@ -41,6 +41,6 @@ public abstract class Empleado {
     public abstract void trabajar();
     
     public void trabajar(int horas){
-        System.out.println(nombre + " está trabajando " + horas + " horas.");
+        System.out.println(nombre + " está trabajando " + horas + " horas");
     }
 }

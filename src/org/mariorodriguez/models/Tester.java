@@ -21,11 +21,11 @@ public class Tester extends Empleado{
     
     @Override
     public void trabajar() {
-        System.out.println(nombre + " está realizando pruebas de tipo " + tipoPruebas + ".");
+        System.out.println(getNombre() + " está haciendo pruebas de tipo " + tipoPruebas);
     }
 
     public void trabajar(String herramienta, String proyecto) {
-        System.out.println(nombre + " está usando la herramienta " + herramienta + " para probar el proyecto " + proyecto + ".");
+        System.out.println(getNombre() + " usa la herramienta " + herramienta + " para probar el proyecto " + proyecto);
     }
     
     

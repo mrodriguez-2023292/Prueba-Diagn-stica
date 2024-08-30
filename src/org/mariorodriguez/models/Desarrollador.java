@@ -21,10 +21,10 @@ public class Desarrollador extends Empleado{
     
     @Override
     public void trabajar() {
-        System.out.println(nombre + " está desarrollando en " + lenguajeProgramación + ".");
+        System.out.println(getNombre() + " trabaja en " + lenguajeProgramación);
     }   
     
     public void trabajar(String proyecto) {
-        System.out.println(nombre + " está trabajando en el proyecto " + proyecto + " usando " + lenguajeProgramación + ".");
+        System.out.println(getNombre() + " trabaja en el proyecto " + proyecto + ", usando el lenguaje " + lenguajeProgramación);
     }
 }
