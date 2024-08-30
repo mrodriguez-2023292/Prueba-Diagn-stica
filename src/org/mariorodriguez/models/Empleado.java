@@ -1,13 +1,13 @@
 package org.mariorodriguez.models;
 
 public abstract class Empleado {
-    String nombre;
+    private String nombre;
     private int edad;
     private double salario;
 
     public Empleado() {
     }
-    
+
     public Empleado(String nombre, int edad, double salario) {
         this.nombre = nombre;
         this.edad = edad;
